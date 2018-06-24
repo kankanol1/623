@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+<?xml-stylesheet type="text/css" href="node.css"?>
+<note>
+<to>George</to>
+<from>John</from>
+<heading>Reminder</heading>
+<body>Don't forget the meeting!</body>
+
+<planet>Venus</planet>
+<planet moons="1">Earth</planet>
+<planet moons="2">Mars</planet>
+</note>

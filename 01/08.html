@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .important {font-weight:bold;}
+        .warning {font-style:italic;}
+        .important.warning {background:silver;}
+        p[class~="important"]{
+            color:pink;
+        }
+        img[alt]{border:5px solid red;}
+    </style>
+</head>
+<body>
+<p kankan="haha">haha</p>
+<h1 kankan="你好">顶顶顶顶</h1>
+<p class="important haha">This paragraph is very important.</p>
+
+<p class="warning">This is a warning.</p>
+
+<p class="important warning">This paragraph is a very important warning.</p>
+
+<p>This is a paragraph.</p>
+<img src="02.png" title="Hello" alt="" />
+
+<script>
+    function text(){
+        var name = "kankan";
+        var obj={
+            name:"lili",
+            fun:function(){
+                name="sasa";
+
+                console.log(name);
+            }
+        }
+        console.log(obj.name);
+        var test = obj.fun;
+       console.log(test());
+       console.log(obj.fun)
+    }
+text();
+
+</script>
+</body>
+</html>

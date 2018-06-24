@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>move1</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: #f00;
+            position: relative;
+            animation: myMove 5s infinite;
+            -webkit-animation: myMove 5s infinite;
+        }
+        @keyframes myMove {
+            from {top: 0px;}
+            to {top: 200px;}
+        }
+        h1{
+            color: red;
+            font-size: 20px;
+            font-family: "sans serif";
+            text-align: center;
+        }
+        li strong {
+            font-style: italic;
+            font-weight: normal;
+        }
+        strong {
+            color: red;
+        }
+        h2 {
+            color:red;
+        }
+        h2 strong {
+            color:blue;
+        }
+    </style>
+
+</head>
+<body>
+<h1>你好世界！</h1>
+
+<p><strong>我是粗体，不是斜体，因为我不在列表中，所以这个规则对我不起作用</strong></p>
+<ol>
+    <li><strong>我是斜体，因为strong元素位于li元素内</strong></li>
+    <li>我是正常字体。</li>
+</ol>
+<p>the strongly emphasized word in this paragraph is<strong>red</strong></p>
+<h2>This subhead is also red,</h2>
+<h2>The strongly emphasized eord in this subhead is <strong>blue</strong></h2>
+
+
+
+
+</body>
+
+</html>
